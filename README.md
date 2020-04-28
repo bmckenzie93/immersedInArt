@@ -39,4 +39,7 @@ Podcast Website
 
   [3:18pm]
   I've been working on the header so far today. For the background I've used a video with a color gradient wash over it. On top I have the logo to the left, and some introductory text to the right.
+
+  [3:45pm]
+  I did a static deployment via Netlify so that this project can be viewed during development by my client at https://flamboyant-noether-04fe12.netlify.app
 }
