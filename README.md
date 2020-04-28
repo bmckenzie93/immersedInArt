@@ -8,7 +8,7 @@ Podcast Website
 
   Resources:
   existing site : offthewallgraffiti.org
-  favorite podcasts:  armchairexpert.com,  thttps://www.thehamilcast.com,  https://crooked.com
+  favorite podcasts:  armchairexpertpod.com,  thttps://www.thehamilcast.com,  https://crooked.com
   'fun' sites:  https://sgdi.ch/, https://lineto.com/, https://ohnotype.co/, https://velvetyne.fr/
 
   Calls to action:
@@ -25,4 +25,15 @@ Podcast Website
 
   [12:34am]
   I started this project by E-mailing maura to ask her what kind of site I could make for her, and asked a few questions about what she wanted. I took the answers she provided and pasted them above here in the read me section to referance while designing this project.
+
+  [12:59am]
+  I just looked at all the websites sent to me. Woah, they were trippy. I'm going to bed now.
+}
+
+# 4-28-2020 {
+  [12:55pm]
+  I did some sketching and browsing to see what kind of design I want to go for on this project. I want to use a video background above the fold for the landing page. I'll start there. I got a vidoe to use on coverr.io for now - I will see if Maura has any mp4's she would want to use instead.
+
+  [1:16pm]
+  I set up my sass files following the 7-1 archatecture method for this project. I want all of my code to be modular, reusable, and scalable! 
 }
