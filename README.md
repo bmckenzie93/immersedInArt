@@ -36,4 +36,7 @@ Podcast Website
 
   [1:16pm]
   I set up my sass files following the 7-1 archatecture method for this project. I want all of my code to be modular, reusable, and scalable! 
+
+  [3:18pm]
+  I've been working on the header so far today. For the background I've used a video with a color gradient wash over it. On top I have the logo to the left, and some introductory text to the right.
 }

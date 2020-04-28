@@ -1,8 +1,32 @@
-// body {
-//   font-family: "Lato", sans-serif;
-//   line-height: 1.7;
-//   font-size: $font-size-default;
-//   font-weight: 400;
-//   color: $color-gray-dark;
-//   padding: 1.9rem;
-// }
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.7;
+  font-size: $font-size-default;
+  font-weight: 400;
+  color: $color-black;
+}
+
+.header__text {
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  line-height: 2.3;
+  letter-spacing: .9rem;
+  font-weight: 700;
+  background-image: linear-gradient(to top,
+    $color-secondary-dark,
+    $color-black
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 .5rem 2rem rgba($color-white, .5);
+
+  &-light {
+    @extend .header__text;
+
+    font-weight: 500;
+    color: $color-black;
+  }
+}
