@@ -1,1 +1,1 @@
-body{background-color:green}
+*,*::before,*::after{-webkit-box-sizing:inherit;box-sizing:inherit;margin:0;padding:0}html{font-size:100%}body{-webkit-box-sizing:border-box;box-sizing:border-box}body{background-color:green}
