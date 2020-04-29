@@ -7,9 +7,9 @@
 .section-key {
   min-height: 40rem;
   background-image: linear-gradient(
-    to top left,
-    rgba($color-secondary-light, 0.9),
+    to bottom right,
+    rgba($color-secondary-dark, 0.9),
     rgba($color-tertiary-dark, 0.9)),
-    url(/dist/images/podTable-1.jpg);
+    url(../images/podTable-1.jpg);
   background-size: cover; 
 }
