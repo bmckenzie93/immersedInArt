@@ -1,0 +1,42 @@
+.imgTrio {
+  position: relative;
+  margin-left: 4rem;
+
+  &__img {
+    width: 55%;
+    box-shadow: 0 1rem 3rem rgba($color-black, .5);
+    outline-offset: 1.5rem; 
+    border-radius: 3px; 
+    z-index: 10;
+    transition: all .2s; 
+
+    &:hover {
+      outline: 1rem solid $color-secondary-light;
+      transform: translateY(-1rem) scale(1.1);
+      box-shadow: 0 2rem 1rem rgba($color-black, .3); 
+      z-index: 20;
+    }
+
+    &--img-1 {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    &--img-2 {
+      position: absolute;
+      top: 3rem;
+      right: 0;
+    }
+
+    &--img-3 {
+      position: absolute;
+      top: 11rem; 
+      left: 15%; 
+    }
+  }
+
+  &:hover &__img:not(:hover) {
+    transform: scale(.95); 
+  }
+}  

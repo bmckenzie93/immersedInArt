@@ -45,4 +45,7 @@ Podcast Website
 
   [5:42pm]
   Ive been working on the about section, i'm about to put some images on the side. I just added them to my image folder. I need Maura to revise the copy I wrote and send me the exact photos she might want for this section.
+
+  [6:54pm]
+  I've got the about section laid out..
 }

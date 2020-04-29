@@ -21,7 +21,7 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  text-shadow: 0 .5rem 2rem rgba($color-white, .5);
+  text-shadow: 0 .5rem 2rem rgba($color-white, .6);
 
   &-light {
     @extend .header__text;
@@ -54,14 +54,14 @@ body {
 
 .heading-secondary {
   color: $color-gray-dark-1;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
   font-weight: 700;
 }
 
 .paragraph {
   color: $color-gray-dark-1; 
-  font-size: .9rem;
+  font-size: 1rem;
   
   &:not(:last-child) {
     margin-bottom: .5rem; 
