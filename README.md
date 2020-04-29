@@ -48,4 +48,7 @@ Podcast Website
 
   [6:54pm]
   I've got the about section laid out..
+
+  [11:11pm]
+  I got off earlier at 7 to join an online tech meetup which I sat creepily in not saying a word. I just hopped back on real quick to change the colors in the heading and add some animation to it.
 }

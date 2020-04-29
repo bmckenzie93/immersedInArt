@@ -7,21 +7,15 @@ body {
 }
 
 .header__text {
-  display: inline-block;
   text-align: center;
   text-transform: uppercase;
   font-size: 2rem;
   line-height: 2.3;
   letter-spacing: .9rem;
   font-weight: 700;
-  background-image: linear-gradient(to top,
-    $color-secondary-dark,
-    $color-black
-  );
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  text-shadow: 0 .5rem 2rem rgba($color-white, .6);
+  color: $color-white;
+  animation: fromRight 3s 1s;
+  animation-fill-mode: both;
 
   &-light {
     @extend .header__text;

@@ -1,0 +1,23 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fromRight {
+  from {
+    transform: translateX(2rem);
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  to {
+    transform: translateX(0rem);
+    opacity: 1;
+    visibility: visible;
+  }
+}
