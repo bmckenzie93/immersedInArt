@@ -52,3 +52,8 @@ Podcast Website
   [11:11pm]
   I got off earlier at 7 to join an online tech meetup which I sat creepily in not saying a word. I just hopped back on real quick to change the colors in the heading and add some animation to it.
 }
+
+# 4-29-2020 {
+  [12:02pm]
+  I got called off of work today, so I get to code! woohoo! 
+}

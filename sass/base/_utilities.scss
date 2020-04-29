@@ -18,6 +18,19 @@
   display: flex;
 }
 
+.flex-even {
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 40rem;
+}
+
+.block {
+  display: block;
+}
+
 .flex-1 {
   flex: 1;
 }

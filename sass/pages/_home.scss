@@ -1,6 +1,15 @@
 .section-about {
   background-color: $color-gray-light-1;
   padding: 5rem 0;
+  min-height: 44rem; 
+}
 
-  height: 44rem; 
+.section-key {
+  min-height: 40rem;
+  background-image: linear-gradient(
+    to top left,
+    rgba($color-secondary-light, 0.9),
+    rgba($color-tertiary-dark, 0.9)),
+    url(/dist/images/podTable-1.jpg);
+  background-size: cover; 
 }
