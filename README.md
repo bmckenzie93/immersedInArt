@@ -56,4 +56,7 @@ Podcast Website
 # 4-29-2020 {
   [12:02pm]
   I got called off of work today, so I get to code! woohoo! 
+
+  [3:08pm]
+  I've been working on these key cards this whole time.. Ive been trying to get the text to change on hover using only css and I found a new way using the data attribute. Now that I am doing it this way I no longer need to position a card back absolutely over the card front on hover, so Im having to re-write the html and css to remove the card back's that I had made and put the flex containers on other elements now zZzzzz 
 }
