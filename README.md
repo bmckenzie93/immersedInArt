@@ -59,4 +59,7 @@ Podcast Website
 
   [3:08pm]
   I've been working on these key cards this whole time.. Ive been trying to get the text to change on hover using only css and I found a new way using the data attribute. Now that I am doing it this way I no longer need to position a card back absolutely over the card front on hover, so Im having to re-write the html and css to remove the card back's that I had made and put the flex containers on other elements now zZzzzz 
+
+  [4:17pm]
+  That was so fun! It took a while to get it to work but I finally got it to do what I wanted!! The text changes on hover and the icon stays above too. I had to do some psudo-selecting a few levels deep to get it to work. yay!
 }
