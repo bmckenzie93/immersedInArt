@@ -42,4 +42,7 @@ Podcast Website
 
   [3:45pm]
   I did a static deployment via Netlify so that this project can be viewed during development by my client at https://flamboyant-noether-04fe12.netlify.app
+
+  [5:42pm]
+  Ive been working on the about section, i'm about to put some images on the side. I just added them to my image folder. I need Maura to revise the copy I wrote and send me the exact photos she might want for this section.
 }

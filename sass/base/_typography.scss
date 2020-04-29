@@ -30,3 +30,40 @@ body {
     color: $color-black;
   }
 }
+
+.heading-primary {
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-image: linear-gradient(to top,
+    $color-secondary-dark,
+    $color-secondary-light
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  transition: all .3s ease;
+
+  &:hover {
+    transform: scale(1.1);
+    text-shadow: 0 1rem 2rem rgba($color-black, .4);
+  }
+}
+
+.heading-secondary {
+  color: $color-gray-dark-1;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.paragraph {
+  color: $color-gray-dark-1; 
+  font-size: .9rem;
+  
+  &:not(:last-child) {
+    margin-bottom: .5rem; 
+  }
+}
