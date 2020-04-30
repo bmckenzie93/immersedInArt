@@ -22,6 +22,9 @@ Podcast Website
   I actually have a bunch of photos which I can put up on the Facebook page - Immersed In Art.
   It would be cool to have a photo section maybe? I am hosting on pod bean, which you will likely need the embed code from… just let me know. If you want to log in and view our wordpress site you can do that.
 
+  This is so much fun! I really think we should use this site as a place that they can go to to say “YES! I have a story I want to tell and I want to be on the pod! Here’s a little bit about what my story is - 
+  Here’s my email - Or it connects them to my email?
+
 
   [12:34am]
   I started this project by E-mailing maura to ask her what kind of site I could make for her, and asked a few questions about what she wanted. I took the answers she provided and pasted them above here in the read me section to referance while designing this project.
@@ -65,4 +68,7 @@ Podcast Website
 
   [5:05pm]
   I just spent about 45min tinkering around with the code so that when the key cards scaled up on hover it wouldnt resize the parent div. That should NOT have taken that long lol. Got it though!
+
+  [6:31pm]
+  Emails exchanged, new game plan. This is going to be a call to action page for artists to submit interest in talking on the podcast.
 }
