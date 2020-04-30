@@ -62,4 +62,7 @@ Podcast Website
 
   [4:17pm]
   That was so fun! It took a while to get it to work but I finally got it to do what I wanted!! The text changes on hover and the icon stays above too. I had to do some psudo-selecting a few levels deep to get it to work. yay!
+
+  [5:05pm]
+  I just spent about 45min tinkering around with the code so that when the key cards scaled up on hover it wouldnt resize the parent div. That should NOT have taken that long lol. Got it though!
 }
