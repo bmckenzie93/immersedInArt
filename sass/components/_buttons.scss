@@ -1,12 +1,29 @@
 .btn {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   text-transform: uppercase;
-  padding: 1rem 1.5rem;
-  border-radius: 3px;
+  padding: 1rem 6.5rem;
+  border-radius: 300px;
   position: absolute;
-  bottom: 1rem;
+  bottom: 9vh;
   left: 50%;
   transform: translateX(-50%);
+  background-color: $color-white;
+  color: $color-quad;
+  transition: all .2s ease;
+  cursor: pointer;
+  outline: none;
+
+  &:hover {
+    transform: translateX(-50%);
+    bottom: 11vh;
+    box-shadow: 0 1rem 2rem rgba($color-black, .5);
+    border: 3px solid $color-quad;
+  }
+
+  &:active {
+    bottom: 10vh;
+    box-shadow: 0 1rem 2rem rgba($color-black, .8);
+  }
 }
 
 

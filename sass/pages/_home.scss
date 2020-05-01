@@ -12,6 +12,6 @@
     url(../images/mic.jpg);
   background-size: cover; 
   background-position: left; 
-  height: 40rem;
+  height: calc(100vh - 2.6rem);
   position: relative;
 }
