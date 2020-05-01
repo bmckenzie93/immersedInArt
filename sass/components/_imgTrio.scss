@@ -11,7 +11,7 @@
     transition: all .2s; 
 
     &:hover {
-      outline: 1rem solid $color-secondary-light; 
+      outline: 1rem solid $color-tertiary; 
       transform: translateY(-1rem) scale(1.1);
       box-shadow: 0 2rem 1rem rgba($color-black, .3); 
       z-index: 20;

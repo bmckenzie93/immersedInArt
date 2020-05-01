@@ -20,93 +20,6 @@
 
   &--1 {
     & .key-card__icon {
-      color: $color-primary-light;
-    }
-
-    & .key-card__title {
-      border-bottom: 1rem solid rgba($color-primary-light, .7);
-      border-radius: 1rem;
-      padding-bottom: 1rem;
-    }
-
-    &:hover {
-      &:first-child > :nth-child(2) {
-        display: none;
-      }
-      font-size: 1rem;
-      border: 2px solid $color-primary-light;
-      border-radius: 3px;
-    }
-
-    &:hover::after {
-      content: attr(data-hover);
-      display: block;
-      font-size: .9rem;
-      border-radius: 1rem;
-      border-bottom: 1rem solid rgba($color-primary-light, .7);
-    }
-  }
-
-  &--2 {
-    & .key-card__icon {
-      color: $color-secondary-light;
-    }
-
-    & .key-card__title {
-      border-bottom: 1rem solid rgba($color-secondary-light, .7);
-      border-radius: 1rem;
-      padding-bottom: 1rem;
-    }
-
-    &:hover {
-      &:nth-child(2) > :nth-child(2) {
-        display: none;
-      }
-      font-size: 1rem;
-      border: 2px solid $color-secondary-light;
-      border-radius: 3px;
-    }
-
-    &:hover::after {
-      content: attr(data-hover);
-      display: block;
-      font-size: .9rem;
-      border-radius: 1rem;
-      border-bottom: 1rem solid rgba($color-secondary-light, .7);
-    }
-  }
-
-  &--3 {
-    & .key-card__icon {
-      color: $color-tertiary-light;
-    }
-
-    & .key-card__title {
-      border-bottom: 1rem solid rgba($color-tertiary-light, .7);
-      border-radius: 1rem;
-      padding-bottom: 1rem;
-    }
-
-    &:hover {
-      &:nth-child(3) > :nth-child(2) {
-        display: none;
-      }
-      font-size: 1rem;
-      border: 2px solid $color-tertiary-light;
-      border-radius: 3px;
-    }
-
-    &:hover::after {
-      content: attr(data-hover);
-      display: block;
-      font-size: .9rem;
-      border-radius: 1rem;
-      border-bottom: 1rem solid rgba($color-tertiary-light, .7);
-    }
-  }
-
-  &--4 {
-    & .key-card__icon {
       color: $color-primary;
     }
 
@@ -117,7 +30,7 @@
     }
 
     &:hover {
-      &:nth-child(4) > :nth-child(2) {
+      &:first-child > :nth-child(2) {
         display: none;
       }
       font-size: 1rem;
@@ -131,6 +44,93 @@
       font-size: .9rem;
       border-radius: 1rem;
       border-bottom: 1rem solid rgba($color-primary, .7);
+    }
+  }
+
+  &--2 {
+    & .key-card__icon {
+      color: $color-quad;
+    }
+
+    & .key-card__title {
+      border-bottom: 1rem solid rgba($color-quad, .7);
+      border-radius: 1rem;
+      padding-bottom: 1rem;
+    }
+
+    &:hover {
+      &:nth-child(2) > :nth-child(2) {
+        display: none;
+      }
+      font-size: 1rem;
+      border: 2px solid $color-quad;
+      border-radius: 3px;
+    }
+
+    &:hover::after {
+      content: attr(data-hover);
+      display: block;
+      font-size: .9rem;
+      border-radius: 1rem;
+      border-bottom: 1rem solid rgba($color-quad, .7);
+    }
+  }
+
+  &--3 {
+    & .key-card__icon {
+      color: $color-secondary;
+    }
+
+    & .key-card__title {
+      border-bottom: 1rem solid rgba($color-secondary, .7);
+      border-radius: 1rem;
+      padding-bottom: 1rem;
+    }
+
+    &:hover {
+      &:nth-child(3) > :nth-child(2) {
+        display: none;
+      }
+      font-size: 1rem;
+      border: 2px solid $color-secondary;
+      border-radius: 3px;
+    }
+
+    &:hover::after {
+      content: attr(data-hover);
+      display: block;
+      font-size: .9rem;
+      border-radius: 1rem;
+      border-bottom: 1rem solid rgba($color-secondary, .7);
+    }
+  }
+
+  &--4 {
+    & .key-card__icon {
+      color: $color-tertiary;
+    }
+
+    & .key-card__title {
+      border-bottom: 1rem solid rgba($color-tertiary, .7);
+      border-radius: 1rem;
+      padding-bottom: 1rem;
+    }
+
+    &:hover {
+      &:nth-child(4) > :nth-child(2) {
+        display: none;
+      }
+      font-size: 1rem;
+      border: 2px solid $color-tertiary;
+      border-radius: 3px;
+    }
+
+    &:hover::after {
+      content: attr(data-hover);
+      display: block;
+      font-size: .9rem;
+      border-radius: 1rem;
+      border-bottom: 1rem solid rgba($color-tertiary, .7);
     }
   }
 }

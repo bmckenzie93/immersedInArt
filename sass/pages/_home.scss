@@ -6,12 +6,12 @@
 
 .section-key {
   background-image: linear-gradient(
-    to bottom right,
-    rgba($color-secondary-dark, 0.9),
-    rgba($color-tertiary-dark, 0.9)),
-    url(../images/podTable-1.jpg);
+    to bottom left,
+    rgba($color-secondary, 0.9),
+    rgba($color-tertiary, 0.6)),
+    url(../images/mic.jpg);
   background-size: cover; 
-  background-position: center; 
+  background-position: left; 
   height: 40rem;
   position: relative;
 }
