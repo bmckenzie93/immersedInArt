@@ -81,4 +81,7 @@ Podcast Website
 # 5-3-2020 {
   [12:22pm]
   Yesterday I banged out the modal like a boss. Today I will do the same with a footer!
+
+  [2:30pm]
+  Footers looking pretty good. I'll leave it here untill I get some feedback from Maura. 
 }
