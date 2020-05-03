@@ -49,6 +49,7 @@
     color: $color-white;
     text-decoration: none;
     transition: all .2s ease;
+    display: inline-block; 
 
     &:hover {
       background-color: $color-tertiary;
