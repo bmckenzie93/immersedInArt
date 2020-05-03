@@ -77,3 +77,8 @@ Podcast Website
   [6:00pm]
   From here I want to create the footer, and a pop up modal form. The form sounds more fun to create so ill do that first!
 }
+
+# 5-3-2020 {
+  [12:22pm]
+  Yesterday I banged out the modal like a boss. Today I will do the same with a footer!
+}
