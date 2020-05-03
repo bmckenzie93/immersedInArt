@@ -1,17 +1,23 @@
 .btn {
-  font-size: 1.8rem;
-  text-transform: uppercase;
-  padding: 1rem 6.5rem;
-  border-radius: 300px;
-  position: absolute;
-  bottom: 9vh;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: $color-white;
-  color: $color-quad;
-  transition: all .2s ease;
-  cursor: pointer;
-  outline: none;
+  &,
+  &:link,
+  &:visited {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    padding: 1rem 6.5rem;
+    border-radius: 300px;
+    position: absolute;
+    bottom: 9vh;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: $color-white;
+    color: $color-quad;
+    transition: all .2s ease;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+  }
+  
 
   &:hover {
     transform: translateX(-50%);
@@ -41,6 +47,7 @@
     border-bottom: 3px solid $color-secondary-light; 
     background-color: $color-secondary;
     color: $color-white;
+    text-decoration: none;
     transition: all .2s ease;
 
     &:hover {

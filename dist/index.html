@@ -51,9 +51,9 @@
           <p class="paragraph u-m-bot-med">
             We would love to feature you on our podcast! Weither you want to share a story from school, from the streets, or just talk about this or that - We would love to have you on our show. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, animi.
           </p>
-          <button class="btn-text">
+          <a href="#modal" class="btn-text">
             Connect & share
-          </button>
+          </a>
         </div>
         <div class="flex-1">
           <div class="imgTrio">
@@ -65,7 +65,7 @@
       </div>
     </section>
 
-    <section class="section-key">
+    <section class="section-key" id="section-key">
       <div class="flex-even">
         <div class="key-card key-card--1" data-hover="
             What was your school experience? How did you get there? How did you get through it? Who was special to you during? These are the kinds of stories you’ll hear from students and maybe a few teachers.
@@ -124,8 +124,37 @@
           </div>
         </div>
       </div>
-      <button class="btn">Share your story</button>
+      <a href="#modal" class="btn">Share your story</a>
     </section>
+
+    <div class="modal" id="modal">
+      <div class="modal__content">
+        <a href="#section-key" class="modal__close">&times;</a>
+        <div class="modal__form-container">
+          <h2 class="heading-primary u-m-bot-sm">share your story!</h2>
+          <h3 class="heading-secondary u-m-bot-sm">become a featured artist on the podcast</h3>
+          <p class="paragraph u-m-bot-sm">We would love to share your story with our audience. Weither it be a story from school or the streets, every artist deserves to be heard - and hel other artist along the way as well! Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <form action="#" class="modal__form">
+            <div class="form__group">
+              <label class="form__label" for="name">Name:</label>
+              <input class="form__input" type="text" id="name" placeholder="Name">
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="email">Email:</label>
+              <input class="form__input" type="text" id="email" placeholder="Email">
+            </div>
+            <div class="form__group u-m-bot-sm">
+              <label class="form__label" for="story">About Yourself:</label>
+              <textarea class="form__input form__textarea" name="story" id="story" cols="30" rows="10" placeholder="Introduction"></textarea>
+            </div>
+            <div class="form-group">
+              <button class="btn-text">Join the podcast!</button>
+            </div>
+            
+          </form>
+        </div>
+      </div>
+    </div>
   </main>
 </body> 
 </html> 

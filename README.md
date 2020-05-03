@@ -72,3 +72,8 @@ Podcast Website
   [6:31pm]
   Emails exchanged, new game plan. This is going to be a call to action page for artists to submit interest in talking on the podcast.
 }
+
+# 5-2-2020 {
+  [6:00pm]
+  From here I want to create the footer, and a pop up modal form. The form sounds more fun to create so ill do that first!
+}
