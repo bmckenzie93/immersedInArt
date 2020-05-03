@@ -1,6 +1,7 @@
 .footer {
   background-color: $color-gray-dark-3;
-
+  margin-top: 1.3rem;
+  
   &__logo-box {
     display: flex;
     justify-content: center;
@@ -13,8 +14,8 @@
   }
 
   &__content {
-    height: 40vh;
     display: flex;
+    height: 10rem;
   }
 
   &__nav {
@@ -64,4 +65,21 @@
     font-size: .8rem;
     text-align: center;
   }
+
+  &__brands {
+    display: flex;
+    align-items: center;
+    background: #fff;
+
+  }
+
+  &__brand {
+    width: 33%;
+
+    &-logo {
+      width: 100%;
+    }
+  }
+
+
 }
