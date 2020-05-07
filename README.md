@@ -85,3 +85,10 @@ Podcast Website
   [2:30pm]
   Footers looking pretty good. I'll leave it here untill I get some feedback from Maura. 
 }
+
+# 5-6-2020 {
+  [4:50pm]
+  I just got off work - Im picking up a lot more hours so im having to really commit to spending my time wisely to be able to focus on code still. In this session I want to update the footer now that I have some design notes from Maura.
+
+  
+}
