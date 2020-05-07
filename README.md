@@ -90,5 +90,5 @@ Podcast Website
   [4:50pm]
   I just got off work - Im picking up a lot more hours so im having to really commit to spending my time wisely to be able to focus on code still. In this session I want to update the footer now that I have some design notes from Maura.
 
-  
+  I did all of the requested changes, except adding more photos, because the space I would have added them to has been reduced. I'm going to brainstorm about where to add more photos on the page.
 }
