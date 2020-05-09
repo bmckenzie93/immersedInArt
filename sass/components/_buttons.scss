@@ -2,65 +2,53 @@
   &,
   &:link,
   &:visited {
-    font-size: 1.8rem;
     text-transform: uppercase;
-    padding: 1rem 6.5rem;
-    border-radius: 300px;
-    position: absolute;
-    bottom: 9vh;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: $color-white;
-    color: $color-quad;
-    transition: all .2s ease;
-    cursor: pointer;
-    outline: none;
-    text-decoration: none;
-  }
-  
-
-  &:hover {
-    transform: translateX(-50%);
-    bottom: 11vh;
-    box-shadow: 0 1rem 2rem rgba($color-black, .5);
-    border: 3px solid $color-quad;
-  }
-
-  &:active {
-    bottom: 10vh;
-    box-shadow: 0 1rem 2rem rgba($color-black, .8);
-  }
-}
-
-
-.btn-text {
-  &,
-  &:link,
-  &:visited {
-    font-size: 1rem;
-    text-transform: uppercase;
-    padding: .5rem 1.5rem;
     border-radius: 3px; 
     cursor: pointer;
     outline: none;
-    border: none;
-    border-bottom: 3px solid $color-secondary-light; 
-    background-color: $color-secondary;
-    color: $color-white;
     text-decoration: none;
     transition: all .2s ease;
-    display: inline-block; 
+  }
 
-    &:hover {
-      background-color: $color-tertiary;
-      border-bottom: 3px solid $color-tertiary-dark;
-      transform: translateY(-.5rem);
-      box-shadow: 0 1rem 2rem rgba($color-black, .3);
-    }
+  &:hover {
+    transform: translateY(-.5rem);
+    box-shadow: 0 1rem 2rem rgba($color-black, .3);
   }
 
   &:active {
     transform: translateY(-.2rem);
     box-shadow: 0 1rem 2rem rgba($color-black, .5);
+  }
+
+
+  &--primary {
+    font-size: 1rem;
+    padding: .5rem 1.5rem;
+    display: inline-block;
+    border-bottom: 3px solid $color-secondary-light;
+    background-color: $color-secondary;
+    color: $color-white;
+
+    &:hover {
+      background-color: $color-tertiary;
+      border-bottom: 3px solid $color-tertiary-dark;
+    }
+  }
+
+  &--large {
+    display: block;
+    font-weight: 500;
+    text-align: center;
+    display: inline-block;
+    border-bottom: .3rem solid $color-primary-dark;
+    background-color: $color-primary;
+    color: $color-black;
+    padding: 1rem 5rem;
+    font-size: 1.5rem;
+
+    &:hover {
+      background-color: $color-tertiary;
+      border-bottom: .5rem solid $color-tertiary-dark;
+    }
   }
 }

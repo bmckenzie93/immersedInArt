@@ -67,6 +67,8 @@
       padding: .5rem 1rem;
       margin-bottom: .5rem;
       border: 3px solid transparent;
+      border-radius: 3px;
+      resize: none;
 
       &:focus {
         outline: none;

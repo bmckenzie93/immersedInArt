@@ -90,5 +90,17 @@ Podcast Website
   [4:50pm]
   I just got off work - Im picking up a lot more hours so im having to really commit to spending my time wisely to be able to focus on code still. In this session I want to update the footer now that I have some design notes from Maura.
 
+  [6:00PM]
   I did all of the requested changes, except adding more photos, because the space I would have added them to has been reduced. I'm going to brainstorm about where to add more photos on the page.
+}
+
+# 5-9-2020 {
+  [12:06pm]
+  I got more design notes from Maura. She included some edit to the copy, as well as some design requests. Aside from what she asked for I also want to re-work some of the page. Mostly around the min-width of the key section and the button in that section. I have it positioned absolutely but I shouldnt need it to be.
+
+  [12:33pm]
+  Based on the request I need to re-design the modal to include a select box.
+
+  [2:40pm]
+  So far I remade the build of the key section and redesigned the button inside of it 
 }
