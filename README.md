@@ -102,5 +102,8 @@ Podcast Website
   Based on the request I need to re-design the modal to include a select box.
 
   [2:40pm]
-  So far I remade the build of the key section and redesigned the button inside of it 
+  So far I remade the build of the key section and redesigned the button inside of it.
+
+  [5:31pm]
+  Lots of stuggles today. I managed to remake the modal to include a radio selection for the type of story. I feel like i'm almost ready to make this puppy responsive. A lot of the work I did today was in preparation of making things responsive later. 'do it right the first time and you dont have to do it again later'
 }
