@@ -46,15 +46,18 @@
   }
 
   &__form-container {
-    margin-left: 50%;
+    margin-left: 40%;
     padding: 1.5rem;
     text-align: center;
     background-color: rgba($color-white, .5);
     height: 100%;
+
+    @include respond(tab-land) {
+      margin-left: 30%;
+    }
   }
 
   .form {
-
     &__flex {
       display: flex;
       justify-content: space-evenly;
