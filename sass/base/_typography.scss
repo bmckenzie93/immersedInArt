@@ -17,6 +17,16 @@ body {
   animation: fromRight 3s 1s;
   animation-fill-mode: both;
 
+  @include respond(tab-land) {
+    line-height: 1.7;
+    font-size: 1.7rem;
+  }
+
+  @include respond(tab-port) {
+    line-height: 1.5;
+    font-size: 1.5rem;
+  }
+
   &-light {
     @extend .header__text;
 

@@ -33,5 +33,9 @@
     align-items: start;
     justify-content: center;
     min-height: 6rem;
+
+    @include respond(tab-land) {
+      padding-bottom: 3rem;
+    }
   }
 }
