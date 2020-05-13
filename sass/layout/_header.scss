@@ -24,6 +24,7 @@
 
     @include respond(tab-land) {
       padding: 0 3rem;
+      height: 30%;
     }
   }
 
@@ -36,8 +37,9 @@
     width: 100%;
 
     @include respond(tab-land) {
-      height: 50%;
-      padding: 2rem 0;
+      height: 70%;
+      width: 30%;
+      margin: auto;
     }
   }
 
@@ -47,9 +49,6 @@
     align-self: center; 
     animation: fadeIn 3s;
 
-    @include respond(tab-land) {
-      width: 50%;
-      justify-self: center;
-    }
+    
   }
 }
