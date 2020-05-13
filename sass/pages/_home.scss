@@ -21,6 +21,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @include respond(tab-land) {
+      flex-direction: column;
+    }
   }
 
   &__flex--cta {
