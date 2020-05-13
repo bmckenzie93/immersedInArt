@@ -7,6 +7,10 @@
     rgba($color-secondary, .9), 
     rgba($color-tertiary, .6)
   );
+
+  @include respond(tab-land) {
+    flex-direction: column;
+  }
   
 
   &__content {
@@ -17,6 +21,10 @@
     align-items: center;
     padding: 1rem;
     overflow: hidden;
+
+    @include respond(tab-land) {
+      padding: 0 3rem;
+    }
   }
 
   &__logo-box {
@@ -26,6 +34,11 @@
     align-items: center;
     height: 100%;
     width: 100%;
+
+    @include respond(tab-land) {
+      height: 50%;
+      padding: 2rem 0;
+    }
   }
 
   &__logo {
@@ -33,5 +46,10 @@
     max-width: 100%; 
     align-self: center; 
     animation: fadeIn 3s;
+
+    @include respond(tab-land) {
+      width: 50%;
+      justify-self: center;
+    }
   }
 }

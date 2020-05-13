@@ -7,7 +7,24 @@
 }
 
 html {
-  font-size: 100%;
+  font-size: 100%;                    //16px
+
+
+  @include respond(tab-land) {        
+    font-size: 87.5%;                 // 14px 
+  }
+
+  @include respond(tab-port) {        
+    font-size: 75%;                   // 12px 
+  } 
+
+  @include respond(phone) {        
+    font-size: 62.5%;                 // 10px  
+  } 
+
+  @include respond(desktop-lg) {      
+    font-size: 112.5%;                // 18px
+  }
 }
 
 body {
