@@ -116,3 +116,10 @@ Podcast Website
   -Image trio
   -Key Cards
 }
+
+# 5-14-2020 {
+  [1:30pm]
+  I got more design notes, i'm going to makr the icon bigger on smaller screens..
+
+  
+}

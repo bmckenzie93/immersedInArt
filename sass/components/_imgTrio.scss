@@ -10,10 +10,6 @@
     z-index: 10;
     transition: all .2s; 
 
-    @include respond(tab-land) {
-      width: 60%;
-    }
-
     &:hover {
       outline: 1rem solid $color-tertiary; 
       transform: translateY(-1rem) scale(1.1);
@@ -35,6 +31,11 @@
       @include respond(tab-land) {
         top: 4rem;
       }
+
+      @include respond(tab-port) {
+        top: 0;
+        
+      }
     }
 
     &--img-3 {
@@ -43,8 +44,12 @@
       left: 15%; 
 
       @include respond(tab-land) {
-        bottom: 3rem; 
-        
+        bottom: 0; 
+      }
+
+      @include respond(tab-port) {
+        bottom: 0;
+        right: 90%;
       }
     }
   }

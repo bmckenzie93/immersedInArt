@@ -2,6 +2,34 @@
   background-color: $color-gray-light-1;
   padding: 5rem 0;
   min-height: 44rem; 
+
+  @include respond(tab-land) {
+    padding-bottom: 0;
+  }
+
+  &__flex-container {
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+
+    @include respond(tab-land) {
+      flex-direction: column-reverse;
+      text-align: center;
+      height: 90vh
+    }
+  }
+
+  &__image-box {
+    flex: 1;
+    
+    @include respond(tab-land) {
+      flex: 2;
+    }
+  }
+
+  &__content {
+    flex: 1;
+  }
 }
 
 .section-key {
