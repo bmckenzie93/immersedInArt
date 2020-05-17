@@ -12,23 +12,33 @@
     margin: auto;
     display: flex;
 
-    @include respond(tab-land) {
+    @include respond(phone) {
       flex-direction: column-reverse;
-      text-align: center;
-      height: 90vh
     }
   }
 
   &__image-box {
     flex: 1;
-    
+
     @include respond(tab-land) {
       flex: 2;
     }
+
   }
 
   &__content {
     flex: 1;
+
+    @include respond(tab-port) {
+      flex: 1;
+      padding-bottom: 5rem;
+    }
+
+    @include respond(phone) {
+      flex: 1;
+      padding-bottom: 0; 
+      text-align: center;
+    }
   }
 }
 

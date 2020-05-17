@@ -2,6 +2,10 @@
   position: relative;
   margin-left: 4rem;
 
+  @include respond(tab-land) {
+    margin-left: 0;
+  }
+
   &__img {
     width: 55%;
     box-shadow: 0 1rem 3rem rgba($color-black, .5);
@@ -21,6 +25,10 @@
       position: absolute;
       top: 0;
       left: 0;
+
+      @include respond(tab-land) {
+        display: none;
+      }
     }
 
     &--img-2 {
@@ -28,28 +36,27 @@
       top: 3rem;
       right: 0;
 
-      @include respond(tab-land) {
-        top: 4rem;
-      }
-
-      @include respond(tab-port) {
+      @include respond(tab-land) { 
+        width: 80%;
         top: 0;
-        
+      } 
+
+      @include respond(tab-port) { 
+        top: 3rem; 
+      } 
+
+      @include respond(phone) {
+        display: none;
       }
     }
 
     &--img-3 {
       position: absolute;
-      top: 11rem; 
+      top: 11rem;
       left: 15%; 
 
-      @include respond(tab-land) {
-        bottom: 0; 
-      }
-
-      @include respond(tab-port) {
-        bottom: 0;
-        right: 90%;
+      @include respond(tab-land) { 
+        display: none;
       }
     }
   }
