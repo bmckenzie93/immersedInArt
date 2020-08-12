@@ -1,5 +1,6 @@
-<?php 
-  if(isset($_POST['submit'])) {
+<?php
+if ($_SERVER['REQUEST_METHOD'] === 'POST')
+    {
     $name = $POST['name'];
     $email = $POST['email'];
     $story = $POST['story'];
